@@ -6,7 +6,7 @@ void main() {
   String? input = stdin.readLineSync();
 
   try {
-    int number = int.parse(input!);
+    int number = int.parse(input!).abs();
     if (number == 0) {
       digit++;
     }
